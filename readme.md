@@ -2,7 +2,7 @@
 
 Express middleware for generating [modulepreload](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel/modulepreload) link relations for a [Link](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Link) entity-header based on the requested JavaScript modules import graph. This will prevent request waterfalls for nested module imports.
 
-# Install
+## Install
 
 ```sh
 npm i modulepreload-express
