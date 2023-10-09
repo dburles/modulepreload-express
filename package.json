@@ -24,7 +24,8 @@
     "createModulePreloadMiddleware.mjs"
   ],
   "exports": {
-    "./createModulePreloadMiddleware.mjs": "./createModulePreloadMiddleware.mjs"
+    "./createModulePreloadMiddleware.mjs": "./createModulePreloadMiddleware.mjs",
+    "./package.json": "./package.json"
   },
   "scripts": {
     "eslint": "eslint .",
