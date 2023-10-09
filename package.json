@@ -1,6 +1,6 @@
 {
   "name": "modulepreload-express",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Express middleware for generating modulepreload link relations for a Link entity-header based on the requested JavaScript modules import graph.",
   "repository": {
     "type": "git",
