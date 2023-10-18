@@ -14,7 +14,7 @@ const defaultOptions = {
  * Creates a middleware function that adds a Link header containing modulepreload link relationships to JavaScript module requests.
  * @param {string} appPath The relative path to the application root directory, eg "app".
  * @param {Object} [userOptions] The options object.
- * @param {Array<string>} [userOptions.extensions=["mjs", "js"]] The file extensions to consider for module scripts.
+ * @param {Array<string>} [userOptions.extensions] The file extensions to consider for module scripts.
  * @returns {RequestHandler} The middleware function.
  */
 export default function createModulePreloadMiddleware(
