@@ -42,7 +42,7 @@
   },
   "dependencies": {
     "@types/express": "*",
-    "modulepreload-link-relations": "^2.0.0"
+    "modulepreload-link-relations": "^3.0.0"
   },
   "peerDependencies": {
     "express": "4"
